@@ -31,13 +31,14 @@ public class Main {
                     a = sc.nextInt();
                     System.out.print("Baga al doilea nr sefulica: ");
                     b = sc.nextInt();
-                    System.out.println("O diferenta scandaloasa: " + (a+b));
+                    System.out.println("O diferenta scandaloasa: " + (a-b));
                 }else{
                     System.out.println("M-ai nenorocit, nu stiu ce sa fac!");
                 }
             }
+            System.out.println("0 = exit, 1 = suma, 2 = diferenta");
+            act = sc.nextInt();
         }
-        System.out.println("0 = exit, 1 = suma, 2 = diferenta");
-        act = sc.nextInt();
+
     }
 }
